@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { C, fontDisplay, fontBody, FONT_IMPORT_URL } from "../data/theme";
-import { FacebookIcon, TwitterIcon, InstagramIcon, WhatsAppIcon } from "../data/Socialicons";
+import { FacebookIcon, TwitterIcon, InstagramIcon, WhatsAppIcon } from "../data/socialicons.jsx";
 import { servicesPageData } from "../data/servicesPageData";
 import VeinDivider from "../components/VeinDivider";
 import Navbar from "../components/Navbar";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Phone, MessageCircle, X } from "lucide-react";
 import { C } from "../data/theme";
-import { WhatsAppIcon } from "../data/Socialicons";
+import { WhatsAppIcon } from "../data/socialicons.jsx";
 import { floatingContact } from "../data/contactButton.js";
 
 

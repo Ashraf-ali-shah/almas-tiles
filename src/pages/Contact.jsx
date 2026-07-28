@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X, Phone, MessageCircle, MapPin } from "lucide-react";
 import { C, fontDisplay, fontBody, FONT_IMPORT_URL } from "../data/theme";
-import { FacebookIcon, TwitterIcon, InstagramIcon, WhatsAppIcon } from "../data/Socialicons";
+import { FacebookIcon, TwitterIcon, InstagramIcon, WhatsAppIcon } from "../data/socialicons.jsx";
 import { contactPageData } from "../data/contactPageData";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
