@@ -15,7 +15,7 @@ export default function Navbar() {
 
       <div className="max-w-7xl mx-auto px-5 md:px-8 flex items-center justify-between h-20">
         {/* logo */}
-        <div className="flex items-center gap-3">
+        <NavLink to={'/'} className="flex items-center gap-3">
           <div
             className="w-11 h-11 rounded-full flex items-center justify-center border"
 
@@ -31,7 +31,7 @@ export default function Navbar() {
               {BUSINESS.taglineAr}
             </div>
           </div>
-        </div>
+        </NavLink>
 
         {/* desktop nav links */}
         <nav className="hidden lg:flex items-center gap-8">
