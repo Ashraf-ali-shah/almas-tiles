@@ -12,7 +12,7 @@ const Services = () => {
                 </h2>
                 <VeinDivider />
 
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
+                <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-14">
                     {t.services.items.map((s, i) => (
                         <div
                             key={i}
